@@ -4,8 +4,15 @@ This project provides command line flattening support to your solidity file(s).
 
 ## Usage:
 
+**Windows**
+```powershell
+SolidityFlattener.exe <Source File> <Destination File> <Search Paths>
 ```
-SolidityFlattener <Source File> <Destination File> <Search Paths>
+
+**Unix / Linux**
+
+```shell
+/usr/local/share/dotnet/dotnet "../SolidityFlattener/bin/Debug/netcoreapp2.1/SolidityFlattener.dll" <Source File> <Destination File> <Search Paths>
 ```
 
 **Source File**
